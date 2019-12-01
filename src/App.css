@@ -3,11 +3,65 @@
   padding: 0;
 }
 
-.flower-img {
-  position: fixed;
-  width: 35vw;
-  left: 8px;
-  bottom: -20px;
+/* navigation */
+.navigation {
+  height: 6vw;
+  background-color: ghostwhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100vw;
+  margin: 5px;
+}
+
+a:hover {
+  background-color: lightpink;
+  color: white;
+  margin: 0px;
+  border-radius: 5px;
+}
+
+.home-link {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vw;
+  color: darkslategray;
+}
+
+.products-link {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vw;
+  color: rgb(92, 92, 92);
+}
+
+.special-orders-link {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vw;
+  margin: 5px;
+  color: rgb(92, 92, 92);
+}
+
+.contact-link {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vw;
+  margin: 5px;
+  color: rgb(92, 92, 92);
 }
 
 /* home page */
@@ -78,4 +132,40 @@
 .contact-image {
   height: 40vw;
   margin: 25px;
+}
+
+.flower-img {
+  position: fixed;
+  width: 30vw;
+  left: 8px;
+  bottom: -10px;
+}
+
+.contact-page {
+  background-color: rgb(138, 223, 138);
+  height: 100vh;
+}
+
+.contact-page-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-logo {
+  height: 40vw;
+  min-height: 250px;
+  margin-top: 25px;
+}
+
+.contact-info-wrapper {
+  font-size: 2em;
+  text-align: center;
+}
+
+.contact-text {
+  margin: 15px;
+  color: darkslategray;
 }

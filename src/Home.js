@@ -20,7 +20,7 @@ const Home = () => {
         <div className="featured-products-text">
           Featured products will go here....
         </div>
-        <Link to="/products">See more</Link>
+        {/* <Link to="/products">See more</Link> */}
       </div>
 
       <div className="featured-special-orders-container">
@@ -32,12 +32,20 @@ const Home = () => {
         <div className="featured-special-orders-text">
           Featured special orders will go here....
         </div>
-        <Link to="special-orders">See more</Link>
+        {/* <Link to="special-orders">See more</Link> */}
       </div>
 
       <div className="contact-container">
-        <img className="contact-image" src={contactImage} alt="Contact Info" />
-        <Link to="/contact">Contact Us</Link>
+        <div className="contact-image-container">
+          <img
+            className="contact-image"
+            src={contactImage}
+            alt="Contact Info"
+          />
+          {/* <Link className="contact-us-link" to="/contact">
+            Contact Us
+          </Link> */}
+        </div>
       </div>
       <img className="flower-img" src={flowerImage} alt="Flower" />
     </div>
